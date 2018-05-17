@@ -1,0 +1,6 @@
+view my clock:
+  title: 'View my clock'
+  description: 'Allow access to view my clock'
+view all users clocks:
+  title: 'View all users clocks'
+  description: 'Allow access to all users clocks'

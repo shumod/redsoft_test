@@ -1,0 +1,17 @@
+write_log.user_form:
+  path: '/write-log'
+  defaults:
+    _form: '\Drupal\write_log\Form\WriteLogUserForm'
+    _title: 'Write log user form'
+  requirements:
+    _access: 'TRUE'
+
+write_log.admin_form:
+  path: '/admin/config/people/write_log'
+  defaults:
+    _form: '\Drupal\write_log\Form\WriteLogAdminForm'
+    _title: 'Write log admin form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

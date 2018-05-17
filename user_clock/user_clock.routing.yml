@@ -1,0 +1,15 @@
+user_clock.account:
+  path: '/user/{user}/clock'
+  defaults:
+    _controller: '\Drupal\user_clock\Controller\UserClockController::build'
+    _title_callback: '\Drupal\user_clock\Controller\UserClockController::title'
+  requirements:
+    _custom_access: '\Drupal\user_clock\Controller\UserClockController::access'
+
+user_clock.current_time:
+  path: '/set/current_time'
+  defaults:
+    _title: 'Set current time'
+    _controller: '\Drupal\user_clock\Controller\UserClockController::setCurrentTimeAjax'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: 'User clock'
+type: module
+description: 'User clock module'
+core: 8.x
+package: 'Custom'

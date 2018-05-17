@@ -1,0 +1,7 @@
+name: 'Write log'
+type: module
+description: 'Write log'
+core: 8.x
+package: 'Custom'
+
+configure: write_log.admin_form

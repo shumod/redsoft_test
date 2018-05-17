@@ -1,0 +1,6 @@
+write_log.admin_form:
+  title: 'Write log settings'
+  parent: user.admin_index
+  description: 'Configure anonimous user settings for log writing.'
+  weight: 10
+  route_name: write_log.admin_form
